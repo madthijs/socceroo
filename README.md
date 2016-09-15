@@ -2,11 +2,14 @@
 Mini simulator of soccer group stage written in Swift. It specifically simulates the 1994 - 95 UEFA Champions League - Group D with, the eventual winner of the competition, AFC Ajax, Red Bull Salzburg (well, Red Bull wasn't the official name back then), AEK Athens and AC Milan.
 
 # Instructions
+Open the file 'Socceroo.xcworkspace' to start Xcode.
 Please use the following setup to evaluate the app:
 - iOS Simulator (it should also work on a real device)
 - iOS version 9
 - Xcode 7.3+
 - iPhone 5/6/6+ only
+
+
 
 # How to use
 Just tap the 'KICKOFF' button to start the simulation. Some debug information is printed out in the console to show the chances of scoring goals during the simulation of matches. Tap the KICKOFF button again to reset the group and run the simulation again. Use the 'three-dots' button in the top right of the screen to open a webpage with overal world-wide statistics as uploaded to the server.
