@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/thijsv/Documents/Projects/Socceroo/Socceroo/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/thijsv/Documents/Projects/Socceroo/Socceroo/VerticalLayout.swift",
+      "line": 11,
+      "symbol": "VerticalLayout",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/thijsv/Documents/Projects/Socceroo/Socceroo/ViewController.swift",
+      "line": 43,
+      "symbol": "ViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/thijsv/Documents/Projects/Socceroo/Socceroo/ViewController.swift",
+      "line": 299,
+      "symbol": "ViewController.sendResultsToServer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/thijsv/Documents/Projects/Socceroo"
+}

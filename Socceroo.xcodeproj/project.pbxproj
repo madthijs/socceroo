@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C672F076985C1B4F48FE509 /* Pods_Socceroo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A728B13A0C20E9802C45CB3 /* Pods_Socceroo.framework */; };
+		5C511DDD1D8A9B3E00D1CA70 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B39111D8A96D600E931FB /* Match.swift */; };
+		5C511DDE1D8A9B4200D1CA70 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B39131D8A96E300E931FB /* Group.swift */; };
+		5C511DDF1D8A9B4600D1CA70 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B39151D8A96EB00E931FB /* Team.swift */; };
+		5C722C1F1D849B1100729597 /* VerticalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C722C1E1D849B1100729597 /* VerticalLayout.swift */; };
+		5C8D70741D8444F600E65E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D70731D8444F600E65E5A /* AppDelegate.swift */; };
+		5C8D70761D8444F600E65E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D70751D8444F600E65E5A /* ViewController.swift */; };
+		5C8D70791D8444F600E65E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8D70771D8444F600E65E5A /* Main.storyboard */; };
+		5C8D707B1D8444F600E65E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8D707A1D8444F600E65E5A /* Assets.xcassets */; };
+		5C8D707E1D8444F600E65E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8D707C1D8444F600E65E5A /* LaunchScreen.storyboard */; };
+		5C8D70891D8444F700E65E5A /* SoccerooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D70881D8444F700E65E5A /* SoccerooTests.swift */; };
+		5C8D70941D8444F700E65E5A /* SoccerooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D70931D8444F700E65E5A /* SoccerooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C8D70851D8444F700E65E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C8D70681D8444F600E65E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8D706F1D8444F600E65E5A;
+			remoteInfo = Socceroo;
+		};
+		5C8D70901D8444F700E65E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C8D70681D8444F600E65E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8D706F1D8444F600E65E5A;
+			remoteInfo = Socceroo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A728B13A0C20E9802C45CB3 /* Pods_Socceroo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Socceroo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AEAE7FFD78F6A43104814F /* Pods-Socceroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socceroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Socceroo/Pods-Socceroo.release.xcconfig"; sourceTree = "<group>"; };
+		5C3B39111D8A96D600E931FB /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		5C3B39131D8A96E300E931FB /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		5C3B39151D8A96EB00E931FB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		5C511DE21D8AC18100D1CA70 /* ViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ViewController.html; sourceTree = "<group>"; };
+		5C511DE31D8AC18100D1CA70 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		5C511DE51D8AC18100D1CA70 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		5C511DE61D8AC18100D1CA70 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		5C511DE81D8AC18100D1CA70 /* Socceroo.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Socceroo.docset; sourceTree = "<group>"; };
+		5C511DE91D8AC18100D1CA70 /* Socceroo.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Socceroo.tgz; sourceTree = "<group>"; };
+		5C511DEB1D8AC18100D1CA70 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		5C511DEC1D8AC18100D1CA70 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		5C511DED1D8AC18100D1CA70 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		5C511DEE1D8AC18100D1CA70 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5C511DF01D8AC18100D1CA70 /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		5C511DF11D8AC18100D1CA70 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		5C511DF31D8AC18100D1CA70 /* Group.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Group.html; sourceTree = "<group>"; };
+		5C511DF41D8AC18100D1CA70 /* Match.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Match.html; sourceTree = "<group>"; };
+		5C511DF51D8AC18100D1CA70 /* Team.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Team.html; sourceTree = "<group>"; };
+		5C511DF61D8AC18100D1CA70 /* Structs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Structs.html; sourceTree = "<group>"; };
+		5C511DF71D8AC18100D1CA70 /* undocumented.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = undocumented.json; sourceTree = "<group>"; };
+		5C722C1E1D849B1100729597 /* VerticalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalLayout.swift; sourceTree = "<group>"; };
+		5C8D70701D8444F600E65E5A /* Socceroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socceroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8D70731D8444F600E65E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C8D70751D8444F600E65E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C8D70781D8444F600E65E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C8D707A1D8444F600E65E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C8D707D1D8444F600E65E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C8D707F1D8444F600E65E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8D70841D8444F700E65E5A /* SoccerooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8D70881D8444F700E65E5A /* SoccerooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerooTests.swift; sourceTree = "<group>"; };
+		5C8D708A1D8444F700E65E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8D708F1D8444F700E65E5A /* SoccerooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8D70931D8444F700E65E5A /* SoccerooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerooUITests.swift; sourceTree = "<group>"; };
+		5C8D70951D8444F700E65E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8D70A11D84469B00E65E5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C8D70A31D84482600E65E5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EF8B605FC193454D4BF66A6E /* Pods-Socceroo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socceroo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Socceroo/Pods-Socceroo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C8D706D1D8444F600E65E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C672F076985C1B4F48FE509 /* Pods_Socceroo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D70811D8444F600E65E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D708C1D8444F700E65E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17090182FFBE3A9C4C3F9A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A728B13A0C20E9802C45CB3 /* Pods_Socceroo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3B39101D8A96BA00E931FB /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				5C3B39111D8A96D600E931FB /* Match.swift */,
+				5C3B39131D8A96E300E931FB /* Group.swift */,
+				5C3B39151D8A96EB00E931FB /* Team.swift */,
+			);
+			name = Structs;
+			sourceTree = "<group>";
+		};
+		5C511DE01D8AC18100D1CA70 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DE11D8AC18100D1CA70 /* Classes */,
+				5C511DE31D8AC18100D1CA70 /* Classes.html */,
+				5C511DE41D8AC18100D1CA70 /* css */,
+				5C511DE71D8AC18100D1CA70 /* docsets */,
+				5C511DEA1D8AC18100D1CA70 /* img */,
+				5C511DEE1D8AC18100D1CA70 /* index.html */,
+				5C511DEF1D8AC18100D1CA70 /* js */,
+				5C511DF21D8AC18100D1CA70 /* Structs */,
+				5C511DF61D8AC18100D1CA70 /* Structs.html */,
+				5C511DF71D8AC18100D1CA70 /* undocumented.json */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		5C511DE11D8AC18100D1CA70 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DE21D8AC18100D1CA70 /* ViewController.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5C511DE41D8AC18100D1CA70 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DE51D8AC18100D1CA70 /* highlight.css */,
+				5C511DE61D8AC18100D1CA70 /* jazzy.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		5C511DE71D8AC18100D1CA70 /* docsets */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DE81D8AC18100D1CA70 /* Socceroo.docset */,
+				5C511DE91D8AC18100D1CA70 /* Socceroo.tgz */,
+			);
+			path = docsets;
+			sourceTree = "<group>";
+		};
+		5C511DEA1D8AC18100D1CA70 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DEB1D8AC18100D1CA70 /* carat.png */,
+				5C511DEC1D8AC18100D1CA70 /* dash.png */,
+				5C511DED1D8AC18100D1CA70 /* gh.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		5C511DEF1D8AC18100D1CA70 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DF01D8AC18100D1CA70 /* jazzy.js */,
+				5C511DF11D8AC18100D1CA70 /* jquery.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		5C511DF21D8AC18100D1CA70 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				5C511DF31D8AC18100D1CA70 /* Group.html */,
+				5C511DF41D8AC18100D1CA70 /* Match.html */,
+				5C511DF51D8AC18100D1CA70 /* Team.html */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		5C8D70671D8444F600E65E5A = {
+			isa = PBXGroup;
+			children = (
+				5C511DE01D8AC18100D1CA70 /* docs */,
+				5C8D70A31D84482600E65E5A /* Podfile */,
+				5C8D70A11D84469B00E65E5A /* README.md */,
+				5C8D70721D8444F600E65E5A /* Socceroo */,
+				5C8D70871D8444F700E65E5A /* SoccerooTests */,
+				5C8D70921D8444F700E65E5A /* SoccerooUITests */,
+				5C8D70711D8444F600E65E5A /* Products */,
+				DC5CD0B321161AACBC6571D3 /* Pods */,
+				17090182FFBE3A9C4C3F9A92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C8D70711D8444F600E65E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C8D70701D8444F600E65E5A /* Socceroo.app */,
+				5C8D70841D8444F700E65E5A /* SoccerooTests.xctest */,
+				5C8D708F1D8444F700E65E5A /* SoccerooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C8D70721D8444F600E65E5A /* Socceroo */ = {
+			isa = PBXGroup;
+			children = (
+				5C3B39101D8A96BA00E931FB /* Structs */,
+				5C8D70731D8444F600E65E5A /* AppDelegate.swift */,
+				5C8D70751D8444F600E65E5A /* ViewController.swift */,
+				5C8D70771D8444F600E65E5A /* Main.storyboard */,
+				5C8D707A1D8444F600E65E5A /* Assets.xcassets */,
+				5C8D707C1D8444F600E65E5A /* LaunchScreen.storyboard */,
+				5C8D707F1D8444F600E65E5A /* Info.plist */,
+				5C722C1E1D849B1100729597 /* VerticalLayout.swift */,
+			);
+			path = Socceroo;
+			sourceTree = "<group>";
+		};
+		5C8D70871D8444F700E65E5A /* SoccerooTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C8D70881D8444F700E65E5A /* SoccerooTests.swift */,
+				5C8D708A1D8444F700E65E5A /* Info.plist */,
+			);
+			path = SoccerooTests;
+			sourceTree = "<group>";
+		};
+		5C8D70921D8444F700E65E5A /* SoccerooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C8D70931D8444F700E65E5A /* SoccerooUITests.swift */,
+				5C8D70951D8444F700E65E5A /* Info.plist */,
+			);
+			path = SoccerooUITests;
+			sourceTree = "<group>";
+		};
+		DC5CD0B321161AACBC6571D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B605FC193454D4BF66A6E /* Pods-Socceroo.debug.xcconfig */,
+				20AEAE7FFD78F6A43104814F /* Pods-Socceroo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C8D706F1D8444F600E65E5A /* Socceroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8D70981D8444F700E65E5A /* Build configuration list for PBXNativeTarget "Socceroo" */;
+			buildPhases = (
+				B4E00AC57AFA6B501205F626 /* [CP] Check Pods Manifest.lock */,
+				5C8D706C1D8444F600E65E5A /* Sources */,
+				5C8D706D1D8444F600E65E5A /* Frameworks */,
+				5C8D706E1D8444F600E65E5A /* Resources */,
+				54A8F8C66DAB8A5535889F20 /* [CP] Embed Pods Frameworks */,
+				22286F5DC1E17561444A5C20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socceroo;
+			productName = Socceroo;
+			productReference = 5C8D70701D8444F600E65E5A /* Socceroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C8D70831D8444F600E65E5A /* SoccerooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8D709B1D8444F700E65E5A /* Build configuration list for PBXNativeTarget "SoccerooTests" */;
+			buildPhases = (
+				5C8D70801D8444F600E65E5A /* Sources */,
+				5C8D70811D8444F600E65E5A /* Frameworks */,
+				5C8D70821D8444F600E65E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C8D70861D8444F700E65E5A /* PBXTargetDependency */,
+			);
+			name = SoccerooTests;
+			productName = SoccerooTests;
+			productReference = 5C8D70841D8444F700E65E5A /* SoccerooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C8D708E1D8444F700E65E5A /* SoccerooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8D709E1D8444F700E65E5A /* Build configuration list for PBXNativeTarget "SoccerooUITests" */;
+			buildPhases = (
+				5C8D708B1D8444F700E65E5A /* Sources */,
+				5C8D708C1D8444F700E65E5A /* Frameworks */,
+				5C8D708D1D8444F700E65E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C8D70911D8444F700E65E5A /* PBXTargetDependency */,
+			);
+			name = SoccerooUITests;
+			productName = SoccerooUITests;
+			productReference = 5C8D708F1D8444F700E65E5A /* SoccerooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C8D70681D8444F600E65E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thijs Verboon";
+				TargetAttributes = {
+					5C8D706F1D8444F600E65E5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3V3B8U8926;
+					};
+					5C8D70831D8444F600E65E5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C8D706F1D8444F600E65E5A;
+					};
+					5C8D708E1D8444F700E65E5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C8D706F1D8444F600E65E5A;
+					};
+				};
+			};
+			buildConfigurationList = 5C8D706B1D8444F600E65E5A /* Build configuration list for PBXProject "Socceroo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C8D70671D8444F600E65E5A;
+			productRefGroup = 5C8D70711D8444F600E65E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C8D706F1D8444F600E65E5A /* Socceroo */,
+				5C8D70831D8444F600E65E5A /* SoccerooTests */,
+				5C8D708E1D8444F700E65E5A /* SoccerooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C8D706E1D8444F600E65E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8D707E1D8444F600E65E5A /* LaunchScreen.storyboard in Resources */,
+				5C8D707B1D8444F600E65E5A /* Assets.xcassets in Resources */,
+				5C8D70791D8444F600E65E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D70821D8444F600E65E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D708D1D8444F700E65E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22286F5DC1E17561444A5C20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Socceroo/Pods-Socceroo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A8F8C66DAB8A5535889F20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Socceroo/Pods-Socceroo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E00AC57AFA6B501205F626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8D706C1D8444F600E65E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C511DDF1D8A9B4600D1CA70 /* Team.swift in Sources */,
+				5C8D70761D8444F600E65E5A /* ViewController.swift in Sources */,
+				5C8D70741D8444F600E65E5A /* AppDelegate.swift in Sources */,
+				5C722C1F1D849B1100729597 /* VerticalLayout.swift in Sources */,
+				5C511DDE1D8A9B4200D1CA70 /* Group.swift in Sources */,
+				5C511DDD1D8A9B3E00D1CA70 /* Match.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D70801D8444F600E65E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8D70891D8444F700E65E5A /* SoccerooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D708B1D8444F700E65E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8D70941D8444F700E65E5A /* SoccerooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C8D70861D8444F700E65E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C8D706F1D8444F600E65E5A /* Socceroo */;
+			targetProxy = 5C8D70851D8444F700E65E5A /* PBXContainerItemProxy */;
+		};
+		5C8D70911D8444F700E65E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C8D706F1D8444F600E65E5A /* Socceroo */;
+			targetProxy = 5C8D70901D8444F700E65E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C8D70771D8444F600E65E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8D70781D8444F600E65E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C8D707C1D8444F600E65E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8D707D1D8444F600E65E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C8D70961D8444F700E65E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C8D70971D8444F700E65E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C8D70991D8444F700E65E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8B605FC193454D4BF66A6E /* Pods-Socceroo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Socceroo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.madthijs.Socceroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5C8D709A1D8444F700E65E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AEAE7FFD78F6A43104814F /* Pods-Socceroo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Socceroo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.madthijs.Socceroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5C8D709C1D8444F700E65E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.madthijs.SoccerooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socceroo.app/Socceroo";
+			};
+			name = Debug;
+		};
+		5C8D709D1D8444F700E65E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.madthijs.SoccerooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socceroo.app/Socceroo";
+			};
+			name = Release;
+		};
+		5C8D709F1D8444F700E65E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.madthijs.SoccerooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Socceroo;
+			};
+			name = Debug;
+		};
+		5C8D70A01D8444F700E65E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.madthijs.SoccerooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Socceroo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C8D706B1D8444F600E65E5A /* Build configuration list for PBXProject "Socceroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8D70961D8444F700E65E5A /* Debug */,
+				5C8D70971D8444F700E65E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8D70981D8444F700E65E5A /* Build configuration list for PBXNativeTarget "Socceroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8D70991D8444F700E65E5A /* Debug */,
+				5C8D709A1D8444F700E65E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8D709B1D8444F700E65E5A /* Build configuration list for PBXNativeTarget "SoccerooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8D709C1D8444F700E65E5A /* Debug */,
+				5C8D709D1D8444F700E65E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8D709E1D8444F700E65E5A /* Build configuration list for PBXNativeTarget "SoccerooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8D709F1D8444F700E65E5A /* Debug */,
+				5C8D70A01D8444F700E65E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C8D70681D8444F600E65E5A /* Project object */;
+}

@@ -1,0 +1,12 @@
+module: Socceroo
+author: Thijs Verboon
+author_url: https://madthijs.com
+github_url: https://github.com/madthijs/socceroo
+readme: README.md
+clean: true
+min_acl: private
+skip_undocumented: true
+
+docset_icon: Socceroo/Assets.xcassets/AppIcon.appiconset/5.png
+
+copyright: '© 2016 [Thijs Verboon](http://madthijs.com).'

@@ -1,0 +1,15 @@
+PODS:
+  - Material (1.42.9)
+  - NVActivityIndicatorView (2.11)
+
+DEPENDENCIES:
+  - Material (~> 1.0)
+  - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Material: a84ed893b7785f0d3c8d568e88c055f82b436473
+  NVActivityIndicatorView: 6a2bca6dab5c88ad72c28f50676acc6cca450c0d
+
+PODFILE CHECKSUM: 9819e040e91b6ce2e049841aab6649c93957893a
+
+COCOAPODS: 1.0.1
